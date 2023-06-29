@@ -33,6 +33,23 @@ public class Main {
         nova.nome = "Tina";
         nova.comer();
 
+        // construir objetos
+        Semente s1 = new Semente();
+        Animal cao1 = new Animal("Pastor");
+        Animal gato1 = new Animal("laranja");
+        Animal gato3;
+        gato3 = new Animal();
+        gato3 = new Animal("preto e branco");
+        Animal coelho;
+        coelho = new Animal("Roger", "Rabbit");
+        //coelho.peso = 2.5;
+        coelho.setPeso("XY",2.5);
+        //System.out.println(coelho.peso);
+        System.out.println(coelho.getPeso());
+
+
+
+
 
 
     }
